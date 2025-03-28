@@ -10,17 +10,19 @@ body{
 
 .container {
 max-width: 1200px;
-/* width: 100%; */
+
 
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.8)), url("./Images/lion-3.jpg");
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("./Images/lion-3.jpg");
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 150px 0;
+    padding: 250px 0;
     color: white;
     text-align: center;
+    /* margin: 10px 0; */
+    /* background-attachment: fixed; */
 }
 header h1{
     font-size: 90px;
