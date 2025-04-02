@@ -57,12 +57,35 @@ color: #fff;
 background-color: #000;
 margin-top: 40px;
 text-align: center;
+padding: 30px;
 }
 footer h3{
     font-size: 24px;
     font-weight: 500;
-    line-height: 30px;
+    /* padding: 10px; */
 }
+
+ footer h5{
+     font-size: 17px;
+    
+ }
+ footer p{
+     padding: 5px 0;
+     line-height: 1;
+     font-size: 16px;
+     opacity: 0.7;
+ }
+
+
+footer li{
+    list-style: none;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 @media (max-width:900px) {
     header{
         padding: 60px 0;
