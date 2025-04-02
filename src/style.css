@@ -9,7 +9,7 @@ body{
 }
 
 .container {
-max-width: 1200px;
+max-width: 1500px;
 /* margin: 0 auto; */
 
 
@@ -52,9 +52,16 @@ header a{
 
 }
 footer {
-    text-align: center;
-    font-size: 18px;
-    margin-top: 50px; 
+color: #fff;
+/* background-color: #0011; */
+background-color: #000;
+margin-top: 40px;
+text-align: center;
+}
+footer h3{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
 }
 @media (max-width:900px) {
     header{
