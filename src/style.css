@@ -10,7 +10,7 @@ body{
 
 .container {
 max-width: 1500px;
-/* margin: 0 auto; */
+margin: 20px auto;
 
 
 }
@@ -51,6 +51,28 @@ header a{
     cursor: pointer;
 
 }
+.main-sec {
+    display: grid;
+    grid-template-columns: 1fr; /* Ensures divs stack naturally */
+    gap: 20px; /* Adds spacing between divs */
+    /* max-width: 1200px; */
+   
+    border-radius: 3px;
+    
+}
+.main-sec h1{
+    text-align: center;
+}
+.main-sec  p{
+background-color: rgb(248, 241, 253);
+padding: 18px;
+font-size: 20px;
+line-height: 2;
+color: #000;
+font-weight: 500;
+
+
+}
 footer {
 color: #fff;
 /* background-color: #0011; */
@@ -75,7 +97,7 @@ footer h3{
     
  }
 footer p strong{
- font-weight: 800;
+ font-weight: 500;
  line-height: 1;
  color: ghostwhite;
  
@@ -118,7 +140,7 @@ footer  ul li{
 }
 iframe{
     width: 400px;
-    height: 180px;
+    height: 160px;
     border-radius: 4px;
  
 }
