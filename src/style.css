@@ -55,7 +55,7 @@ header a{
     display: grid;
     grid-template-columns: 1fr; /* Ensures divs stack naturally */
     gap: 20px; /* Adds spacing between divs */
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
    
     border-radius: 3px;
