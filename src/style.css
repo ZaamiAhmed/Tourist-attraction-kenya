@@ -84,11 +84,29 @@ font-weight: 300;
     padding-bottom: 40px;
 }
 .tourist-places div {
-    background-color: #f7f7f7; /* Light background */
+    background-color: #f7f7f7; 
     padding: 10px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.tourist-places p{
+    text-align: center;
+    font-size: 19px;
+}
+.tourist-places a{
+      background-color: rgb(50, 42, 59);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px;
+    margin-top: 10px;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 24px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
 }
  h2{
      text-align: center;
@@ -130,7 +148,7 @@ footer h3{
  }
 footer p strong{
  font-weight: 500;
- line-height: 1;
+ line-height: 0.4;
  color: ghostwhite;
  
    
