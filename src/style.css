@@ -8,7 +8,9 @@ body{
     font-size: 17px;
    
 }
-
+body h2,h3,h4,h5{
+     color: #2c3e50;
+}
 .container {
 max-width: 1200px;
 margin: auto;
@@ -52,6 +54,9 @@ header a{
     cursor: pointer;
 
 }
+/* section{
+    max-width: 1200px;
+} */
 .main-sec {
     display: grid;
     grid-template-columns: 1fr; /* Ensures divs stack naturally */
@@ -64,49 +69,53 @@ header a{
     text-align: center;
 }
 .main-sec  p{
-background-color: rgb(248, 241, 253);
-padding: 14px;
-font-size: 20px;
-line-height: 2;
-color: #000;
-font-weight: 300;
-   max-width: 950px;
+    background-color: rgb(252, 249, 246);
+
+padding: 18px;
+font-size: 21px;
+line-height: 1.9;
+color: #333;
+max-width: 950px;
     margin: 0 auto;
 
 
 }
 .tourist-places{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: 1fr 1fr 1fr; 
     gap: 20px;
     max-width: 1200px;
-    margin: auto;
-    padding-bottom: 40px;
+    margin: 30px auto;
+  
 }
 .tourist-places div {
     background-color: #f7f7f7; 
-    padding: 10px;
-    text-align: center;
+    padding: 20px;
+    /* text-align: center; */
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 .tourist-places p{
-    text-align: center;
-    font-size: 19px;
+    /* text-align: center; */
+    font-size: 24px;
+     color: #333;
+     /* padding: 14px; */
+
 }
 .tourist-places a{
-      background-color: rgb(50, 42, 59);
+      background-color: #333;
     color: #fff;
     text-decoration: none;
-    padding: 8px 10px;
-    margin-top: 10px;
+    padding: 20px 16px;
+    margin-top: 20px;
     display: inline-block;
+
     text-transform: capitalize;
     font-size: 24px;
     outline: none;
     border-radius: 4px;
     cursor: pointer;
-    align-items: center;
+
 }
  h2{
      text-align: center;
@@ -117,12 +126,57 @@ font-weight: 300;
 
 }
 .tourist-places img{
-   width: 100%; /* Responsive images */
-    max-height: 200px; /* Keep aspect ratio */
-    object-fit: cover; /* Prevent stretching */
-    border-radius: 8px;
+   width: 100%; 
+    border-radius: 10px;
+   height: 250px;
+   object-fit: cover;
+    
     
 }
+.kenya-culture {
+    text-align: center;
+    padding: 20px 30px;
+    background-color: rgb(252, 249, 246);
+  
+    
+}
+.kenya-culture h2{
+    font-size: 34px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.kenya-culture p{
+    font-size: 23px;
+    line-height: 1.9;
+     color: #333;
+}
+  section .cards{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 25px;
+      padding: 20px 15px;
+    
+    
+  }
+  .card{
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 30px;
+       box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+      transition: 0.5s ease-in-out;
+
+  }
+  .card:hover{
+      transform: translateY(-6px);
+  
+  }
+  .card img{
+      width: 100%;
+      border-radius: 12px;
+      /* height: 300px; */
+      margin-bottom: 20px;
+   
+  }
 footer {
 color: #fff;
 /* background-color: #0011; */
@@ -226,6 +280,9 @@ iframe{
     footer span{
         font-size: 17px;
         padding: 10px;
+    }
+      .tourist-places {
+        grid-template-columns: 1fr;
     }
     
 }
