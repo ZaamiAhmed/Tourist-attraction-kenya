@@ -13,7 +13,7 @@ body h2,h3,h4,h5{
 }
 .container {
 max-width: 1200px;
-margin: auto;
+margin:20px auto;
 
 
 }
@@ -84,8 +84,8 @@ max-width: 950px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     gap: 20px;
-    max-width: 1200px;
-    margin: 30px auto;
+    /* max-width: 1000px; */
+    margin: 30px 80px;
   
 }
 .tourist-places div {
@@ -106,12 +106,12 @@ max-width: 950px;
       background-color: #333;
     color: #fff;
     text-decoration: none;
-    padding: 20px 16px;
+    padding: 18px 12px;
     margin-top: 20px;
     display: inline-block;
 
     text-transform: capitalize;
-    font-size: 24px;
+    font-size: 20px;
     outline: none;
     border-radius: 4px;
     cursor: pointer;
@@ -126,7 +126,7 @@ max-width: 950px;
 
 }
 .tourist-places img{
-   width: 100%; 
+   width: 90%; 
     border-radius: 10px;
    height: 250px;
    object-fit: cover;
