@@ -35,7 +35,7 @@ header h1{
 }
 header p{
     font-size: 40px;
-font-family: cursive;
+/* font-family: cursive; */
 font-weight: 500;
 padding: 10px;
     
@@ -507,6 +507,12 @@ iframe{
     .card em{
         font-size: 14px;
         padding: 0;
+    }
+  footer span{
+        font-size: 12px;
+    }
+    footer span a{
+        font-size: 12px;
     }
     
 }
