@@ -439,6 +439,11 @@ iframe{
         width: 100%;
         height: 200px;
     }
+    .kenya-culture h2{
+        font-size: 20px;
+        margin-top: 0;
+        line-height: 0;
+    }
     footer .grid{
         display: grid;
         grid-template-columns: 1fr;
@@ -491,8 +496,9 @@ iframe{
   text-align: center;
     }
     .kenya-culture h2{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 0;
+      line-height: 1;
     }
     .kenya-culture p{
         font-size: 15px;
